@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to our Helpdesk Department</title>
+  <style>
+    /* Basic Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background-color: #f4f7f9; color: #333; line-height: 1.6; }
+
+    /* Header / Hero */
+    header {
+      background-color: #0052cc;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 20px; }
+    header p { font-size: 1.2rem; margin-bottom: 30px; }
+    header a { background-color: #ffcc00; color: #333; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+
+    /* Section Styling */
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 2rem; margin-bottom: 20px; text-align: center; }
+    p { margin-bottom: 15px; }
+
+    /* Services */
+    .services { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    .service { background: white; padding: 20px; border-radius: 10px; margin: 15px; width: 250px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+
+    /* Contact Form */
+    form { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 500px; margin: auto; }
+    input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; }
+    button { background-color: #0052cc; color: white; padding: 12px 20px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+    button:hover { background-color: #003d99; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background-color: #222; color: white; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Welcome to Helpdesk Department</h1>
+    <p> Escalation & Branch Support Specialist</p>
+    <a href="#contact">Get Support</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Helpdesk Specialist</h2>
+    <p>Inspired by Estes, the backbone support hero, I specialize in IT operations, escalations, and multi-branch coordination. I ensure that systems run smoothly and that teams stay supported and productive.</p>
+    <p>My mission is to provide reliable, professional, and proactive IT support for every branch, making complex challenges manageable.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>My Expertise</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Escalation Management</h3>
+        <p>Efficiently handle incidents, coordinate with branches, and resolve critical issues quickly.</p>
+      </div>
+      <div class="service">
+        <h3>IT Operations</h3>
+        <p>Maintain smooth operations, monitor systems, and provide operational support across teams.</p>
+      </div>
+      <div class="service">
+        <h3>Service Desk Support</h3>
+        <p>Deliver professional helpdesk assistance, ensure fast response times, and manage tickets effectively.</p>
+      </div>
+      <div class="service">
+        <h3>Branch Coordination</h3>
+        <p>Act as the bridge between branches and central operations, ensuring seamless communication and support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Louyi — Your Support Hero. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
